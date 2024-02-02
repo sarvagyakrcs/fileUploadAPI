@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# If using Celery, add its configuration file
+celeryconfig.py
+
+# Secret key
+*.key
+
+# Development-related
+*.sqlite3
+*.db
+*.sqlite
+*.local
+
+# Production-related
+staticfiles/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore migrations for apps
+**/migrations/
